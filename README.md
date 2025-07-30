@@ -23,3 +23,10 @@ The app uses a pre-trained **machine learning model** to assess risk for loan ap
 ---
 
 ## 📂 Project Structure
+
+├── main.py # Streamlit app entry point
+├── prediction_helper.py # Helper functions for prediction
+├── artifacts/
+│ └── model_data.joblib # Pre-trained ML model & scaler
+├── requirements.txt # Python dependencies
+└── README.md
